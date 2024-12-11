@@ -1,0 +1,86 @@
+1* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+position:sticky;
+top:0px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+    background-color: #575757;
+}
+
+.row {
+    display: flex;
+    margin: 20px;
+}
+
+.leftcolumn {
+    flex: 70%;
+    padding: 20px;
+}
+
+.rightcolumn {
+    flex: 30%;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Memastikan proporsi gambar tetap terjaga */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada gambar */
+}
+
+#tentang img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% dari kontainer */
+    height: 300px; /* Mengatur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik jika tidak sesuai rasio */
+}
+.proyek-img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% dari kontainer */
+    height: 200px; /* Mengatur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik jika tidak sesuai rasio */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada gambar */
+    margin-bottom: 15px; /* Menambahkan jarak di bawah gambar */
+}
+.hobi-img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% dari kontainer */
+    height: 250px; /* Mengatur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik jika tidak sesuai rasio */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada gambar */
+}
